@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 import Reveal from "../components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Calendar — Lando Norris",
+  title: "Calendar — Tharindu Chamuditha",
   description: "The 2025 Formula 1 race calendar, tracked round by round.",
 };
 

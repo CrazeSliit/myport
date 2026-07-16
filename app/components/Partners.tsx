@@ -24,7 +24,7 @@ export default function Partners() {
               Partners <span className="text-accent">&amp;</span> Campaigns
             </h2>
             <p className="max-w-md text-muted">
-              Lando is proud to collaborate with a range of partners, who share
+              Tharinduis proud to collaborate with a range of partners, who share
               his passion for performance across a range of industries.
             </p>
           </div>

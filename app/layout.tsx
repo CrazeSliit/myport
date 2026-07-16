@@ -19,9 +19,9 @@ const serif = Libre_Baskerville({
 });
 
 export const metadata: Metadata = {
-  title: "Lando Norris",
+  title: "Tharindu Chamuditha",
   description:
-    "Official website of Lando Norris — 2025 McLaren Formula 1 Driver. Always bringing the fight.",
+    "Official website of Tharindu Chamuditha — 2025 McLaren Formula 1 Driver. Always bringing the fight.",
 };
 
 export default function RootLayout({

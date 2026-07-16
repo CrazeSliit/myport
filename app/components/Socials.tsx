@@ -1,10 +1,10 @@
 import Reveal from "./Reveal";
 
 const socials = [
-  { platform: "TikTok", handle: "@landonorris" },
-  { platform: "Instagram", handle: "@lando" },
-  { platform: "YouTube", handle: "@LandoNorris" },
-  { platform: "Twitch", handle: "@landonorris" },
+  { platform: "TikTok", handle: "@TharinduChamuditha" },
+  { platform: "Instagram", handle: "@Tharindu" },
+  { platform: "YouTube", handle: "@TharinduChamuditha" },
+  { platform: "Twitch", handle: "@TharinduChamuditha" },
 ];
 
 export default function Socials() {

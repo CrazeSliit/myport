@@ -36,7 +36,7 @@ export default function Footer() {
           The Fight.
         </h2>
         <a
-          href="mailto:enquiries@landonorris.com"
+          href="mailto:enquiries@TharinduChamuditha.com"
           className="mt-10 inline-block rounded-full bg-accent px-8 py-4 text-sm font-bold uppercase tracking-widest text-black transition-transform hover:scale-105"
         >
           Business Enquiries
@@ -47,7 +47,7 @@ export default function Footer() {
         <div className="flex flex-col gap-10 lg:flex-row lg:justify-between">
           <div>
             <p className="display text-2xl">
-              Lando<span className="text-accent">.</span>Norris
+              Tharindu<span className="text-accent">.</span>Chamuditha
             </p>
             <p className="mt-2 text-sm text-muted">McLaren F1 · Since 2019</p>
           </div>
@@ -92,7 +92,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col gap-4 border-t border-border pt-6 text-xs text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Lando Norris. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Tharindu Chamuditha. All rights reserved.</p>
           <div className="flex gap-6">
             <a href="#" className="transition-colors hover:text-foreground">
               Privacy Policy

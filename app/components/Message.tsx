@@ -19,7 +19,7 @@ export default function Message() {
       <div className="relative mx-auto max-w-350">
         <Reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.35em] text-accent">
-            Message from Lando
+            Message from Tharindu
           </p>
         </Reveal>
 
@@ -45,7 +45,7 @@ export default function Message() {
               — that&apos;s the legacy I want, on the track and off it.&rdquo;
             </p>
             <svg
-              aria-label="Lando Norris signature"
+              aria-label="Tharindu Chamuditha signature"
               viewBox="0 0 220 90"
               className="mt-8 h-14 w-auto text-accent"
               fill="none"

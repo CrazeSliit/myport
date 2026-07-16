@@ -32,17 +32,17 @@ export default function Navbar() {
         {/* Wordmark */}
         <a href="/#top" className="leading-[0.82] text-foreground">
           <span className="block font-serif text-2xl tracking-tight sm:text-3xl">
-            LANDO
+            Tharindu
           </span>
           <span className="block text-2xl font-black tracking-tight sm:text-3xl">
-            NORRIS
+            Chamuditha
           </span>
         </a>
 
         {/* Center L7 mark */}
         <a
           href="/#top"
-          aria-label="Lando Norris"
+          aria-label="Tharindu Chamuditha"
           className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 text-accent"
         >
           <svg viewBox="0 0 64 44" className="h-7 w-11" fill="currentColor">

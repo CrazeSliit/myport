@@ -30,7 +30,7 @@ export default function Helmets() {
               </h2>
             </div>
             <p className="max-w-md text-muted">
-              From his iconic blobs to innovative one-off designs, Lando has
+              From his iconic blobs to innovative one-off designs, Tharinduhas
               always been passionate about designing innovative and memorable
               helmets.
             </p>

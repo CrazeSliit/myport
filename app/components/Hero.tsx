@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import TopoBackground from "./TopoBackground";
 
@@ -9,21 +10,26 @@ export default function Hero() {
     >
       <TopoBackground />
 
-      {/* Oversized portrait block — drop a file at /public/hero.png to replace the placeholder */}
-      <div
-        className="photo absolute bottom-0 left-1/2 h-[92%] w-[52rem] max-w-[96vw] -translate-x-1/2 bg-cover bg-top bg-no-repeat"
-        style={{ backgroundImage: "url('/hero.png')" }}
-        aria-label="Lando Norris"
-      />
+      {/* Oversized portrait — right side, shifted toward center */}
+      <div className="absolute bottom-0 right-0 z-0 h-[98%] w-240 max-w-[110vw] -translate-x-16 sm:h-[108%] lg:-translate-x-32">
+        <Image
+          src="/portrait.png"
+          alt="Tharindu Chamuditha"
+          fill
+          priority
+          sizes="(max-width: 640px) 110vw, 60rem"
+          className="object-contain object-bottom"
+        />
+      </div>
       <div className="absolute inset-0 bg-linear-to-t from-cream via-cream/10 to-transparent" />
-      <div className="absolute inset-0 bg-linear-to-b from-cream/70 via-transparent to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-r from-cream via-cream/40 to-transparent" />
 
       {/* Headline */}
       <div className="relative z-10 mx-auto w-full max-w-350 px-6 pb-56 pt-40 lg:px-10 lg:pb-64">
         <p className="text-xs font-semibold uppercase tracking-[0.4em] text-accent">
-          Lando Norris
+          Tharindu Chamuditha
         </p>
-        <h1 className="display mt-5 text-6xl leading-[0.86] sm:text-8xl lg:text-[9rem]">
+        <h1 className="display mt-5 max-w-3xl text-6xl leading-[0.86] sm:text-8xl lg:text-[8rem]">
           Always
           <br />
           Bringing
@@ -31,7 +37,7 @@ export default function Hero() {
           <span className="text-accent">The Fight.</span>
         </h1>
         <p className="mt-6 max-w-md text-sm font-semibold uppercase tracking-[0.2em] text-cream-ink/70">
-          2025 McLaren Formula 1 Driver
+          Full Stack Developer
         </p>
       </div>
 

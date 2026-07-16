@@ -11,7 +11,7 @@ export default function Store() {
 
             <div className="relative flex flex-col justify-center gap-6 px-8 py-24 sm:px-16 lg:py-32">
               <p className="text-xs font-semibold uppercase tracking-[0.35em] text-accent">
-                Lando Store
+                TharinduStore
               </p>
               <h2 className="display max-w-2xl text-5xl leading-[0.95] sm:text-7xl">
                 World Drivers&apos; Champion
